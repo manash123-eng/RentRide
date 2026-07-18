@@ -1,8 +1,13 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
-  headers: { "Content-Type": "application/json" },
+  baseURL: import.meta.env.PROD
+    ? "https://rentride-gtl6.onrender.com/api"
+    : "/api",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  withCredentials: true,
 });
 
 // Attach Authorization only for protected endpoints.
@@ -22,9 +27,9 @@ api.interceptors.request.use((config) => {
   if (token && !isPublic) {
     config.headers.Authorization = `Bearer ${token}`;
   }
+
   return config;
 });
-
 
 api.interceptors.response.use(
   (response) => response,
@@ -32,10 +37,12 @@ api.interceptors.response.use(
     if (error.response?.status === 401) {
       localStorage.removeItem("rentride_token");
       localStorage.removeItem("rentride_user");
+
       if (!window.location.pathname.startsWith("/login")) {
         window.location.href = "/login";
       }
     }
+
     return Promise.reject(error);
   }
 );
