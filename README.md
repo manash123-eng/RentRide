@@ -206,45 +206,47 @@ The project demonstrates modern web development practices including authenticati
 
 ## 🏠 Home Page
 
-(Add Screenshot Here)
+<img width="1434" height="728" alt="image" src="https://github.com/user-attachments/assets/a025b511-d9d9-4e82-b1f8-cff58497d666" />
+
 
 ---
 
 ## 🚗 Vehicle Listing
 
-(Add Screenshot Here)
+<img width="1449" height="704" alt="image" src="https://github.com/user-attachments/assets/0831cc48-5fa1-4a09-8cff-0dd02d828ece" />
+
 
 ---
 
 ## 🚘 Vehicle Details
 
-(Add Screenshot Here)
+<img width="1442" height="719" alt="image" src="https://github.com/user-attachments/assets/0c8b2d94-6447-4732-b59d-52e9680267d9" />
+
 
 ---
 
 ## 📅 Booking Page
 
-(Add Screenshot Here)
+<img width="1181" height="582" alt="image" src="https://github.com/user-attachments/assets/1d045383-1739-4e69-a293-9d2f64c30dab" />
+
 
 ---
 
 ## 💳 Payment Page
 
-(Add Screenshot Here)
+<img width="1337" height="568" alt="image" src="https://github.com/user-attachments/assets/b570b12e-4763-436f-9fb4-8eb66e561bcd" />
+
 
 ---
 
 ## 👤 User Dashboard
 
-(Add Screenshot Here)
+<img width="1286" height="663" alt="image" src="https://github.com/user-attachments/assets/1eac8b1c-0be0-445d-a40a-3675cb29906a" />
+
 
 ---
 
-## 👨‍💼 Admin Dashboard
 
-(Add Screenshot Here)
-
----
 
 # 🏗 Architecture
 
