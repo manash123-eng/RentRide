@@ -24,6 +24,38 @@ A modern full-stack vehicle rental platform that allows users to browse, book, a
 </div>
 
 ---
+# 👥 Project Team
+
+<table>
+<tr>
+<td align="center">
+
+### 👨‍💻 Manas Mishra
+**Reg. No.: 12407408**
+
+**Role:** Full Stack Developer
+
+</td>
+
+<td align="center">
+
+### 👩‍💻 Sakshi Kumari
+**Reg. No.: 12407689**
+
+**Role:** Frontend Developer
+
+</td>
+
+<td align="center">
+
+### 👨‍💻 Kankipati Jnana Manikanta Devi Sriram
+**Reg. No.: 12407715**
+
+**Role:** Backend Developer
+
+</td>
+</tr>
+</table>
 
 # 📑 Table of Contents
 
