@@ -42,7 +42,7 @@ A modern full-stack vehicle rental platform that allows users to browse, book, a
 ### 👩‍💻 Sakshi Kumari
 **Reg. No.: 12407689**
 
-**Role:** Full Stack Developer
+**Role:** Frontend Developer
 
 </td>
 
