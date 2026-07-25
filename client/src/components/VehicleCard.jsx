@@ -49,11 +49,23 @@ const VehicleCard = ({ vehicle, wishlisted = false, onWishlistChange }) => {
             </span>
           )}
           <button
-            onClick={handleWishlist}
-            className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-ink/60 text-white backdrop-blur transition hover:bg-ink/80"
-          >
-            <FiHeart className={wishlisted ? "fill-electric-400 text-electric-400" : ""} size={16} />
-          </button>
+  type="button"
+  onClick={handleWishlist}
+  aria-label={wishlisted ? "Remove from wishlist" : "Add to wishlist"}
+  title={wishlisted ? "Remove from wishlist" : "Add to wishlist"}
+  className={`absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full backdrop-blur transition-all duration-200 ${
+    wishlisted
+      ? "bg-electric/20 text-electric-400 hover:bg-electric/30"
+      : "bg-ink/60 text-white hover:bg-ink/80"
+  }`}
+>
+  <FiHeart
+    size={17}
+    className={`transition-transform duration-200 ${
+      wishlisted ? "fill-current scale-110" : "hover:scale-110"
+    }`}
+  />
+</button>
           <div className="absolute bottom-3 left-3 flex items-center gap-1 rounded-full bg-ink/60 px-2.5 py-1 text-xs font-medium text-white backdrop-blur">
             <FiMapPin size={12} /> {vehicle.location}
           </div>
