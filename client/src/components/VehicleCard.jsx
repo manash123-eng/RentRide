@@ -37,10 +37,9 @@ const VehicleCard = ({ vehicle, wishlisted = false, onWishlistChange }) => {
     >
       <Link to={`/vehicles/${vehicle._id}`} className="block">
         <div className="relative h-48 w-full overflow-hidden">
-         <img
+        <img
   src={image}
   alt={vehicle.name}
-  loading="lazy"
   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
 />
           <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent" />
