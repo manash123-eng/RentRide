@@ -4,6 +4,6 @@
 - [x] Ensure OPTIONS preflight requests are handled.
 - [x] Remove any duplicate CORS middleware (verify only one exists).
 - [x] Keep JWT authentication and cookies working.
-- [x] Save modified files.
+- [x] Save modified file.
 
 
