@@ -19,7 +19,7 @@ A modern full-stack vehicle rental platform that allows users to browse, book, a
 
 🌐 https://rent-ride-eta.vercel.app/
 
-> ⚠️ **Note:** This is a demo project built for learning and portfolio purposes. It is not a real vehicle rental platform.
+> ⚠️ **Note:** This is a demo project built only for learning and portfolio purposes. It is not a real vehicle rental platform.
 
 </div>
 
