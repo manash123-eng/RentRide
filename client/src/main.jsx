@@ -9,10 +9,16 @@ import "./index.css";
 
 const queryClient = new QueryClient({
   defaultOptions: {
-    queries: { retry: 1, refetchOnWindowFocus: false, staleTime: 60 * 1000 },
+    queries: {
+      retry: 1,
+      refetchOnWindowFocus: false,
+      staleTime: 60 * 1000,
+    },
+    mutations: {
+      retry: 0,
+    },
   },
 });
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
